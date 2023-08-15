@@ -44,7 +44,8 @@ class Methods {
       }`,
     );
     const data = this.index.getIndex().toJSON();
-    console.log(`${colors.white("commands:")}`);
+    console.log(`${colors.blue("self-update")}: deno install https://esm.sh/gh/tristanisham/shebang`)
+    console.log(`${colors.white("shebangs:")}`);
     for (const key of data.keys) {
       console.log(key);
     }
