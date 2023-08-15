@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "start": "deno run -A main.ts"
+  },
+  "imports": {
+    "@/": "./",
+    "std/": "https://deno.land/std@0.198.0/",
+    "fuse.js": "https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js"
+  }
+}

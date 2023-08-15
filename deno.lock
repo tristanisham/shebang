@@ -1,0 +1,18 @@
+{
+  "version": "2",
+  "remote": {
+    "https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js": "6827a36e51727ae8e4b741aa01f90b1324526808746557802b447342eea45c94",
+    "https://deno.land/std@0.198.0/fmt/colors.ts": "a7eecffdf3d1d54db890723b303847b6e0a1ab4b528ba6958b8f2e754cf1b3bc"
+  },
+  "npm": {
+    "specifiers": {
+      "fuse.js": "fuse.js@6.6.2"
+    },
+    "packages": {
+      "fuse.js@6.6.2": {
+        "integrity": "sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==",
+        "dependencies": {}
+      }
+    }
+  }
+}
